@@ -1,0 +1,49 @@
+{
+  "name": "Unit0 Mainnet",
+  "timestamp": "2024-11-02T10:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 1,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "https://swop.fi/static/media/swop-icon.21002f7f79c39f0ee53fce36dff129af.svg",
+  "keywords": [
+    "unit0",
+    "default"
+  ],
+  "tokens": [
+    {
+      "chainId": 88811,
+      "address": "0xEb19000D90f17FFbd3AD9CDB8915D928F4980fD1",
+      "name": "USDCoin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    },
+    {
+      "chainId": 88811,
+      "address": "0xb303d80db8415FD1d3C9FED68A52EEAc9a052671",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "chainId": 88811,
+      "address": "0x1B100DE3F13E3f8Bb2f66FE58c1949c32E71248B",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "chainId": 88811,
+      "address": "0x9CE808657ba90C65a2700b1cA5D943eC72834B52",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+    }
+  ]
+}
