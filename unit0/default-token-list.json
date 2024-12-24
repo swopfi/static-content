@@ -1,57 +1,121 @@
 {
-  "name": "Unit0 Mainnet",
-  "timestamp": "2024-12-10T10:00:00.000Z",
-  "version": {
-    "major": 2,
-    "minor": 1,
-    "patch": 1
-  },
-  "tags": {},
-  "logoURI": "https://swop.fi/static/media/swop-icon.21002f7f79c39f0ee53fce36dff129af.svg",
-  "keywords": [
-    "unit0",
-    "default"
-  ],
-  "tokens": [
-    {
-      "chainId": 88811,
-      "address": "0xEb19000D90f17FFbd3AD9CDB8915D928F4980fD1",
-      "name": "USDCoin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+    "name": "Unit0 Mainnet",
+    "timestamp": "2024-12-10T10:00:00.000Z",
+    "version": {
+        "major": 3,
+        "minor": 1,
+        "patch": 1
     },
-    {
-      "chainId": 88811,
-      "address": "0xb303d80db8415FD1d3C9FED68A52EEAc9a052671",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
-    },
-    {
-      "chainId": 88811,
-      "address": "0x1B100DE3F13E3f8Bb2f66FE58c1949c32E71248B",
-      "name": "Wrapped Ether",
-      "symbol": "WETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
-    },
-    {
-      "chainId": 88811,
-      "address": "0x9CE808657ba90C65a2700b1cA5D943eC72834B52",
-      "name": "Wrapped BTC",
-      "symbol": "WBTC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
-    },
-    {
-      "chainId": 88811,
-      "address": "0xb12fBfd30B50393a814237434B527a74a217e494",
-      "name": "PixWav",
-      "symbol": "PixWav",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0xb12fBfd30B50393a814237434B527a74a217e494.png"
-    }
-  ]
+    "tags": {},
+    "logoURI": "https://swop.fi/static/media/swop-icon.21002f7f79c39f0ee53fce36dff129af.svg",
+    "keywords": [
+        "unit0",
+        "default"
+    ],
+    "tokens": [
+        {
+            "chainId": 88811,
+            "address": "0xEb19000D90f17FFbd3AD9CDB8915D928F4980fD1",
+            "name": "USDCoin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0xb303d80db8415FD1d3C9FED68A52EEAc9a052671",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x1B100DE3F13E3f8Bb2f66FE58c1949c32E71248B",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x9CE808657ba90C65a2700b1cA5D943eC72834B52",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0xb12fBfd30B50393a814237434B527a74a217e494",
+            "name": "PixWav",
+            "symbol": "PixWav",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0xb12fBfd30B50393a814237434B527a74a217e494.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x6dfe63380149e04f4dd9bd7e8d892eec28878556",
+            "name": "McSasha",
+            "symbol": "MCSASHA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0x6dfe63380149e04f4dd9bd7e8d892eec288785564.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0xc7f27ee087907ea2d412d9f990c6c70a19c9f752",
+            "name": "Abs0lute Unit",
+            "symbol": "ABU",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0xc7f27ee087907ea2d412d9f990c6c70a19c9f752.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x2b37584df699cf84030a43f3eb1d4e075712d265",
+            "name": "UNIT69",
+            "symbol": "UNIT69",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0x2b37584df699cf84030a43f3eb1d4e075712d265.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x7900c01eed60868beea1de79730ca5633a4b6a45",
+            "name": "Sancho",
+            "symbol": "Sancho",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0x7900c01eed60868beea1de79730ca5633a4b6a45.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x84d591f4687b606cda33fc9aa4a95aecc93e9c4b",
+            "name": "BRIAN",
+            "symbol": "BRIAN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0x84d591f4687b606cda33fc9aa4a95aecc93e9c4b.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0xf252401108d869656fa682e67b04ac9e9f4a388e",
+            "name": "Memma",
+            "symbol": "Memma",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0xf252401108d869656fa682e67b04ac9e9f4a388e.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x0be82123979e875045c49dbd2d22378ef4f09126",
+            "name": "I-ne-ne",
+            "symbol": "I-ne-ne",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0x0be82123979e875045c49dbd2d22378ef4f09126.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0xcbe8c6618a25c4e63be68cfc5b7bf2d0ac2982c4",
+            "name": "Real Games",
+            "symbol": "RG",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0xcbe8c6618a25c4e63be68cfc5b7bf2d0ac2982c4.png"
+        }
+    ]
 }
