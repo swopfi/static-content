@@ -1,8 +1,8 @@
 {
     "name": "Unit0 Mainnet",
-    "timestamp": "2024-12-24T10:00:00.000Z",
+    "timestamp": "2025-04-30T10:00:00.000Z",
     "version": {
-        "major": 3,
+        "major": 4,
         "minor": 1,
         "patch": 1
     },
@@ -116,6 +116,14 @@
             "symbol": "RG",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0xcbe8c6618a25c4e63be68cfc5b7bf2d0ac2982c4.png"
+        },
+        {
+            "chainId": 88811,
+            "address": "0x3358Ce5bA12130c5C03063f13d7FCE20dF2208fa",
+            "name": "GORC",
+            "symbol": "GORC",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/swopfi/static-content/main/unit0/assets/0x3358Ce5bA12130c5C03063f13d7FCE20dF2208fa.png"
         }
     ]
 }
